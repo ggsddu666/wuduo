@@ -84,12 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/wuay/CLionProjects/git/wuduo/src/CLFileHandle.cpp">
-			<Option target="wuduo"/>
-		</Unit>
-		<Unit filename="/Users/wuay/CLionProjects/git/wuduo/src/CLFileHandle.h">
-			<Option target="wuduo"/>
-		</Unit>
 		<Unit filename="/Users/wuay/CLionProjects/git/wuduo/src/Logging_unittest.cpp">
 			<Option target="wuduo"/>
 		</Unit>
@@ -112,9 +106,6 @@
 			<Option target="wuduo"/>
 		</Unit>
 		<Unit filename="/Users/wuay/CLionProjects/git/wuduo/src/base/currentThread.h">
-			<Option target="wuduo"/>
-		</Unit>
-		<Unit filename="/Users/wuay/CLionProjects/git/wuduo/src/maic.cpp">
 			<Option target="wuduo"/>
 		</Unit>
 		<Unit filename="/Users/wuay/CLionProjects/git/wuduo/CMakeLists.txt">

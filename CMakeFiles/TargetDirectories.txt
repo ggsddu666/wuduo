@@ -1,1 +1,0 @@
-/root/c/project/CMakeFiles/project.dir

@@ -57,33 +57,9 @@ include CMakeFiles/wuduo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/wuduo.dir/flags.make
 
-CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o: CMakeFiles/wuduo.dir/flags.make
-CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o: ../src/CLFileHandle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o -c /Users/wuay/CLionProjects/git/wuduo/src/CLFileHandle.cpp
-
-CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuay/CLionProjects/git/wuduo/src/CLFileHandle.cpp > CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.i
-
-CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuay/CLionProjects/git/wuduo/src/CLFileHandle.cpp -o CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.s
-
-CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o.requires:
-
-.PHONY : CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o.requires
-
-CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o.provides: CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o.requires
-	$(MAKE) -f CMakeFiles/wuduo.dir/build.make CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o.provides.build
-.PHONY : CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o.provides
-
-CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o.provides.build: CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o
-
-
 CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o: CMakeFiles/wuduo.dir/flags.make
 CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o: ../src/Logging_unittest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o -c /Users/wuay/CLionProjects/git/wuduo/src/Logging_unittest.cpp
 
 CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.i: cmake_force
@@ -105,33 +81,9 @@ CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o.provides: CMakeFiles/wuduo.dir/s
 CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o.provides.build: CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o
 
 
-CMakeFiles/wuduo.dir/src/maic.cpp.o: CMakeFiles/wuduo.dir/flags.make
-CMakeFiles/wuduo.dir/src/maic.cpp.o: ../src/maic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wuduo.dir/src/maic.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wuduo.dir/src/maic.cpp.o -c /Users/wuay/CLionProjects/git/wuduo/src/maic.cpp
-
-CMakeFiles/wuduo.dir/src/maic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wuduo.dir/src/maic.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuay/CLionProjects/git/wuduo/src/maic.cpp > CMakeFiles/wuduo.dir/src/maic.cpp.i
-
-CMakeFiles/wuduo.dir/src/maic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wuduo.dir/src/maic.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuay/CLionProjects/git/wuduo/src/maic.cpp -o CMakeFiles/wuduo.dir/src/maic.cpp.s
-
-CMakeFiles/wuduo.dir/src/maic.cpp.o.requires:
-
-.PHONY : CMakeFiles/wuduo.dir/src/maic.cpp.o.requires
-
-CMakeFiles/wuduo.dir/src/maic.cpp.o.provides: CMakeFiles/wuduo.dir/src/maic.cpp.o.requires
-	$(MAKE) -f CMakeFiles/wuduo.dir/build.make CMakeFiles/wuduo.dir/src/maic.cpp.o.provides.build
-.PHONY : CMakeFiles/wuduo.dir/src/maic.cpp.o.provides
-
-CMakeFiles/wuduo.dir/src/maic.cpp.o.provides.build: CMakeFiles/wuduo.dir/src/maic.cpp.o
-
-
 CMakeFiles/wuduo.dir/src/base/Condition.cpp.o: CMakeFiles/wuduo.dir/flags.make
 CMakeFiles/wuduo.dir/src/base/Condition.cpp.o: ../src/base/Condition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wuduo.dir/src/base/Condition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wuduo.dir/src/base/Condition.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wuduo.dir/src/base/Condition.cpp.o -c /Users/wuay/CLionProjects/git/wuduo/src/base/Condition.cpp
 
 CMakeFiles/wuduo.dir/src/base/Condition.cpp.i: cmake_force
@@ -155,7 +107,7 @@ CMakeFiles/wuduo.dir/src/base/Condition.cpp.o.provides.build: CMakeFiles/wuduo.d
 
 CMakeFiles/wuduo.dir/src/base/Mutex.cpp.o: CMakeFiles/wuduo.dir/flags.make
 CMakeFiles/wuduo.dir/src/base/Mutex.cpp.o: ../src/base/Mutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/wuduo.dir/src/base/Mutex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wuduo.dir/src/base/Mutex.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wuduo.dir/src/base/Mutex.cpp.o -c /Users/wuay/CLionProjects/git/wuduo/src/base/Mutex.cpp
 
 CMakeFiles/wuduo.dir/src/base/Mutex.cpp.i: cmake_force
@@ -179,7 +131,7 @@ CMakeFiles/wuduo.dir/src/base/Mutex.cpp.o.provides.build: CMakeFiles/wuduo.dir/s
 
 CMakeFiles/wuduo.dir/src/base/Logging.cpp.o: CMakeFiles/wuduo.dir/flags.make
 CMakeFiles/wuduo.dir/src/base/Logging.cpp.o: ../src/base/Logging.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/wuduo.dir/src/base/Logging.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wuduo.dir/src/base/Logging.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wuduo.dir/src/base/Logging.cpp.o -c /Users/wuay/CLionProjects/git/wuduo/src/base/Logging.cpp
 
 CMakeFiles/wuduo.dir/src/base/Logging.cpp.i: cmake_force
@@ -203,9 +155,7 @@ CMakeFiles/wuduo.dir/src/base/Logging.cpp.o.provides.build: CMakeFiles/wuduo.dir
 
 # Object files for target wuduo
 wuduo_OBJECTS = \
-"CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o" \
 "CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o" \
-"CMakeFiles/wuduo.dir/src/maic.cpp.o" \
 "CMakeFiles/wuduo.dir/src/base/Condition.cpp.o" \
 "CMakeFiles/wuduo.dir/src/base/Mutex.cpp.o" \
 "CMakeFiles/wuduo.dir/src/base/Logging.cpp.o"
@@ -213,15 +163,13 @@ wuduo_OBJECTS = \
 # External object files for target wuduo
 wuduo_EXTERNAL_OBJECTS =
 
-bin/wuduo: CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o
 bin/wuduo: CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o
-bin/wuduo: CMakeFiles/wuduo.dir/src/maic.cpp.o
 bin/wuduo: CMakeFiles/wuduo.dir/src/base/Condition.cpp.o
 bin/wuduo: CMakeFiles/wuduo.dir/src/base/Mutex.cpp.o
 bin/wuduo: CMakeFiles/wuduo.dir/src/base/Logging.cpp.o
 bin/wuduo: CMakeFiles/wuduo.dir/build.make
 bin/wuduo: CMakeFiles/wuduo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bin/wuduo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wuay/CLionProjects/git/wuduo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin/wuduo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wuduo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -229,9 +177,7 @@ CMakeFiles/wuduo.dir/build: bin/wuduo
 
 .PHONY : CMakeFiles/wuduo.dir/build
 
-CMakeFiles/wuduo.dir/requires: CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o.requires
 CMakeFiles/wuduo.dir/requires: CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o.requires
-CMakeFiles/wuduo.dir/requires: CMakeFiles/wuduo.dir/src/maic.cpp.o.requires
 CMakeFiles/wuduo.dir/requires: CMakeFiles/wuduo.dir/src/base/Condition.cpp.o.requires
 CMakeFiles/wuduo.dir/requires: CMakeFiles/wuduo.dir/src/base/Mutex.cpp.o.requires
 CMakeFiles/wuduo.dir/requires: CMakeFiles/wuduo.dir/src/base/Logging.cpp.o.requires

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o"
-  "CMakeFiles/wuduo.dir/src/base/Condition.cpp.o"
-  "CMakeFiles/wuduo.dir/src/base/Mutex.cpp.o"
-  "CMakeFiles/wuduo.dir/src/base/Logging.cpp.o"
+  "CMakeFiles/wuduo.dir/Logging_unittest.cpp.o"
+  "CMakeFiles/wuduo.dir/base/Condition.cpp.o"
+  "CMakeFiles/wuduo.dir/base/Mutex.cpp.o"
+  "CMakeFiles/wuduo.dir/base/Logging.cpp.o"
   "bin/wuduo.pdb"
   "bin/wuduo"
 )

@@ -123,33 +123,6 @@ wuduo/fast:
 	$(MAKE) -f CMakeFiles/wuduo.dir/build.make CMakeFiles/wuduo.dir/build
 .PHONY : wuduo/fast
 
-src/CLFileHandle.o: src/CLFileHandle.cpp.o
-
-.PHONY : src/CLFileHandle.o
-
-# target to build an object file
-src/CLFileHandle.cpp.o:
-	$(MAKE) -f CMakeFiles/wuduo.dir/build.make CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.o
-.PHONY : src/CLFileHandle.cpp.o
-
-src/CLFileHandle.i: src/CLFileHandle.cpp.i
-
-.PHONY : src/CLFileHandle.i
-
-# target to preprocess a source file
-src/CLFileHandle.cpp.i:
-	$(MAKE) -f CMakeFiles/wuduo.dir/build.make CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.i
-.PHONY : src/CLFileHandle.cpp.i
-
-src/CLFileHandle.s: src/CLFileHandle.cpp.s
-
-.PHONY : src/CLFileHandle.s
-
-# target to generate assembly for a file
-src/CLFileHandle.cpp.s:
-	$(MAKE) -f CMakeFiles/wuduo.dir/build.make CMakeFiles/wuduo.dir/src/CLFileHandle.cpp.s
-.PHONY : src/CLFileHandle.cpp.s
-
 src/Logging_unittest.o: src/Logging_unittest.cpp.o
 
 .PHONY : src/Logging_unittest.o
@@ -258,33 +231,6 @@ src/base/Mutex.cpp.s:
 	$(MAKE) -f CMakeFiles/wuduo.dir/build.make CMakeFiles/wuduo.dir/src/base/Mutex.cpp.s
 .PHONY : src/base/Mutex.cpp.s
 
-src/maic.o: src/maic.cpp.o
-
-.PHONY : src/maic.o
-
-# target to build an object file
-src/maic.cpp.o:
-	$(MAKE) -f CMakeFiles/wuduo.dir/build.make CMakeFiles/wuduo.dir/src/maic.cpp.o
-.PHONY : src/maic.cpp.o
-
-src/maic.i: src/maic.cpp.i
-
-.PHONY : src/maic.i
-
-# target to preprocess a source file
-src/maic.cpp.i:
-	$(MAKE) -f CMakeFiles/wuduo.dir/build.make CMakeFiles/wuduo.dir/src/maic.cpp.i
-.PHONY : src/maic.cpp.i
-
-src/maic.s: src/maic.cpp.s
-
-.PHONY : src/maic.s
-
-# target to generate assembly for a file
-src/maic.cpp.s:
-	$(MAKE) -f CMakeFiles/wuduo.dir/build.make CMakeFiles/wuduo.dir/src/maic.cpp.s
-.PHONY : src/maic.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -294,9 +240,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... wuduo"
-	@echo "... src/CLFileHandle.o"
-	@echo "... src/CLFileHandle.i"
-	@echo "... src/CLFileHandle.s"
 	@echo "... src/Logging_unittest.o"
 	@echo "... src/Logging_unittest.i"
 	@echo "... src/Logging_unittest.s"
@@ -309,9 +252,6 @@ help:
 	@echo "... src/base/Mutex.o"
 	@echo "... src/base/Mutex.i"
 	@echo "... src/base/Mutex.s"
-	@echo "... src/maic.o"
-	@echo "... src/maic.i"
-	@echo "... src/maic.s"
 .PHONY : help
 
 
