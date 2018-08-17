@@ -1,0 +1,3 @@
+/home/wuayeee/Downloads/wuduo/src/CMakeFiles/rebuild_cache.dir
+/home/wuayeee/Downloads/wuduo/src/CMakeFiles/edit_cache.dir
+/home/wuayeee/Downloads/wuduo/src/CMakeFiles/project.dir

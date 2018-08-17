@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wuayeee/Downloads/wuduo/src/base/Atomic.h
+boost/noncopyable.hpp
+-
+stdint.h
+-
+
+/home/wuayeee/Downloads/wuduo/src/base/Atomic_unittest.cpp
+Atomic.h
+/home/wuayeee/Downloads/wuduo/src/base/Atomic.h
+assert.h
+-
+

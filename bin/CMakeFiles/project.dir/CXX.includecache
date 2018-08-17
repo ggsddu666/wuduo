@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/c/c_test22/src/test1.cpp
+iostream
+-
+fcntl.h
+-
+unistd.h
+/root/c/c_test22/src/unistd.h
+
