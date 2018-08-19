@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/c/c_test22/src/CLFileHandle.cpp
+iostream
+-
+CLFileHandle.h
+/root/c/c_test22/src/CLFileHandle.h
+
+/root/c/c_test22/src/CLFileHandle.h
+iostream
+-
+pthread.h
+-
+fcntl.h
+-
+unistd.h
+/root/c/c_test22/src/unistd.h
+string.h
+-
+

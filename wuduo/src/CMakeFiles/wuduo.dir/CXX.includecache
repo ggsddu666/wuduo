@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wuay/CLionProjects/git/wuduo/src/Logging_unittest.cpp
+base/Logging.h
+/Users/wuay/CLionProjects/git/wuduo/src/base/Logging.h
+
+/Users/wuay/CLionProjects/git/wuduo/src/base/Condition.cpp
+Condition.h
+/Users/wuay/CLionProjects/git/wuduo/src/base/Condition.h
+
+/Users/wuay/CLionProjects/git/wuduo/src/base/Condition.h
+
+/Users/wuay/CLionProjects/git/wuduo/src/base/Logging.cpp
+Logging.h
+/Users/wuay/CLionProjects/git/wuduo/src/base/Logging.h
+
+/Users/wuay/CLionProjects/git/wuduo/src/base/Logging.h
+cstring
+-
+
+/Users/wuay/CLionProjects/git/wuduo/src/base/Mutex.cpp
+Mutex.h
+/Users/wuay/CLionProjects/git/wuduo/src/base/Mutex.h
+
+/Users/wuay/CLionProjects/git/wuduo/src/base/Mutex.h
+
