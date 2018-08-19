@@ -11,33 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7090cccc-5a9a-404c-af48-724a0d302dfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Timestamp_unittest.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/Timestamp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/Timestamp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/Types.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/copyable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bin/wuduo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/wuduo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/wuduo.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logging_unittest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logging_unittest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/Logging.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Logging.h" afterDir="false" />
-    </list>
+    <list default="true" id="7090cccc-5a9a-404c-af48-724a0d302dfb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +23,36 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Timestamp.cpp" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/Timestamp.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-28" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Timestamp.h" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/Timestamp.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Types.h" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/Types.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <element signature="e#81#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,6 +65,7 @@
     <findStrings>
       <find>CMAKE_THREAD_LIBS_INIT</find>
       <find>AtomicInt64</find>
+      <find>Timestamp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,6 +90,7 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/base/copyable.h" />
         <option value="$PROJECT_DIR$/src/base/Timestamp.h" />
+        <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/Timestamp.h" />
       </list>
     </option>
   </component>
@@ -101,7 +106,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="height" value="654" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,7 +147,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -186,7 +191,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22805000" />
+    <option name="totallyTimeSpent" value="26720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -199,15 +204,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961783" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3280255" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.3280255" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37261146" />
+      <window_info active="true" anchor="bottom" id="File Transfer" visible="true" weight="0.21974522" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37261146" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3280255" />
-      <window_info active="true" anchor="right" id="Remote Host" visible="true" weight="0.32956383" />
+      <window_info anchor="right" id="Remote Host" visible="true" weight="0.32956383" />
       <window_info anchor="right" content_ui="combo" id="Project" order="4" weight="0.25282714" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961783" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
