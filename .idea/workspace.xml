@@ -24,20 +24,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LogStream_test.cpp" pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/LogStream_test.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="227" column="28" selection-start-line="227" selection-start-column="28" selection-end-line="227" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LogStream.cpp" pinned="true" current-in-tab="false">
         <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/LogStream.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="178" column="41" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="41" />
+            <state relative-caret-position="2392">
+              <caret line="120" column="41" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="41" />
               <folding>
                 <element signature="e#222#238#0" expanded="true" />
                 <element signature="e#400#412#0" expanded="true" />
@@ -51,33 +42,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogStream.h" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/LogStream.h">
+      <file leaf-file-name="LogStream_bench.cpp" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/LogStream_bench.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="158" column="60" lean-forward="true" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="60" />
+            <state relative-caret-position="332">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="22" />
               <folding>
-                <element signature="e#423#433#0" expanded="true" />
-                <element signature="e#3165#3177#0" expanded="true" />
-                <element signature="e#3282#3294#0" expanded="true" />
+                <element signature="e#85#103#0" expanded="true" />
+                <element signature="e#475#487#0" expanded="true" />
+                <element signature="e#945#957#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/CMakeLists.txt">
+      <file leaf-file-name="LogStream.h" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/LogStream.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="152">
+              <caret line="46" column="14" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="14" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="other.cpp" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/other.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28" />
           </provider>
         </entry>
       </file>
@@ -94,7 +78,6 @@
     <findStrings>
       <find>CMAKE_THREAD_LIBS_INIT</find>
       <find>AtomicInt64</find>
-      <find>Timestamp</find>
       <find>now</find>
       <find>toStringPiece</find>
       <find>FixedBUffer</find>
@@ -107,6 +90,7 @@
       <find>buffer(</find>
       <find>FixedBuffer</find>
       <find>FMT</find>
+      <find>Timestamp</find>
       <find>reset</find>
     </findStrings>
   </component>
@@ -138,12 +122,13 @@
         <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/Timestamp.cpp" />
         <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/Timestamp_unittest.cpp" />
         <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/Logging_unittest.cpp" />
-        <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/StringPiece.h" />
-        <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/other.cpp" />
-        <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/CMakeLists.txt" />
         <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/LogStream.cpp" />
         <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/LogStream.h" />
         <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/LogStream_test.cpp" />
+        <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/other.cpp" />
+        <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/CMakeLists.txt" />
+        <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/StringPiece.h" />
+        <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/LogStream_bench.cpp" />
       </list>
     </option>
   </component>
@@ -241,12 +226,12 @@
       <updated>1513737324554</updated>
       <workItem from="1513737326432" duration="2413000" />
       <workItem from="1534316021036" duration="12661000" />
-      <workItem from="1534988785941" duration="29516000" />
+      <workItem from="1534988785941" duration="39294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92136000" />
+    <option name="totallyTimeSpent" value="101914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
