@@ -27,8 +27,8 @@
       <file leaf-file-name="FileUtil.h" pinned="true" current-in-tab="true">
         <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/FileUtil.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="45" column="81" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="81" />
+            <state relative-caret-position="159">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="e#292#309#0" expanded="true" />
                 <element signature="e#770#787#0" expanded="true" />
@@ -37,23 +37,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringPiece.h" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/StringPiece.h">
+      <file leaf-file-name="FileUtil.cpp" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/FileUtil.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="1842">
+              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
               <folding>
-                <element signature="e#519#538#0" expanded="true" />
+                <element signature="e#1946#1963#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtil.cpp" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/FileUtil.cpp">
+      <file leaf-file-name="StringPiece.h" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/StringPiece.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+            <state relative-caret-position="87">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="17" />
+              <folding>
+                <element signature="e#519#538#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,6 +88,7 @@
       <find>FMT</find>
       <find>Timestamp</find>
       <find>reset</find>
+      <find>fstat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,8 +136,8 @@
         <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/CMakeLists.txt" />
         <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/test/FileUtil_test.cpp" />
         <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/StringPiece.h" />
-        <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/FileUtil.cpp" />
         <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/FileUtil.h" />
+        <option value="&lt;20af3d90-0671-4755-a92c-642a7a50fd90&gt;/wuduo/src/base/FileUtil.cpp" />
       </list>
     </option>
   </component>
@@ -231,12 +235,12 @@
       <updated>1513737324554</updated>
       <workItem from="1513737326432" duration="2413000" />
       <workItem from="1534316021036" duration="12661000" />
-      <workItem from="1534988785941" duration="70741000" />
+      <workItem from="1534988785941" duration="94995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133361000" />
+    <option name="totallyTimeSpent" value="157615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,7 +255,7 @@
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.32956383" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.32956383" />
       <window_info anchor="right" content_ui="combo" id="Project" order="4" weight="0.249309" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32903227" />
@@ -260,7 +264,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3311828" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.24959612" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,9 +297,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/base/Logging.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Mutex.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -527,6 +528,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Mutex.cpp">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/include/sys/errno.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="110" column="14" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
