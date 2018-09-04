@@ -6,6 +6,7 @@ CMakeFiles/wuduo.dir/src/Logging_unittest.cpp.o: ../src/base/Logging.h
 
 CMakeFiles/wuduo.dir/src/Timestamp_unittest.cpp.o: ../src/Timestamp_unittest.cpp
 CMakeFiles/wuduo.dir/src/Timestamp_unittest.cpp.o: ../src/base/Timestamp.h
+CMakeFiles/wuduo.dir/src/Timestamp_unittest.cpp.o: ../src/base/copyable.h
 
 CMakeFiles/wuduo.dir/src/base/Condition.cpp.o: ../src/base/Condition.cpp
 CMakeFiles/wuduo.dir/src/base/Condition.cpp.o: ../src/base/Condition.h
