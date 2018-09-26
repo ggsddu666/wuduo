@@ -8,8 +8,12 @@
 // Logger类用枚举类型定义了日志等级。
 
 #include <cstring>
+#include "LogStream.h"
+#include "Timestamp.h"
 
 namespace wuduo {
+class TimeZone;
+
 class Logger {
 public:
     // log等级
@@ -59,6 +63,19 @@ public:
     Logger(SourceFile file, int line, bool toAbort);
     ~Logger();
 
+    LogStream& stream() {
+        return impl_.stream_;
+    }
+
+    static LogLevel logLevel();
+    static void setLogLevel(LogLevel level);
+
+    typedef void (*OutputFunc)(const char *msg, int len);
+    typedef void (*FlushFunc)();
+    static void setOutput(OutputFunc);
+    static void setFlush(FlushFunc);
+    static void setTimeZone(const TimeZone &tz);
+
 
 private:
 class Impl {
@@ -68,13 +85,47 @@ public:
     void formatTime();
     void finish();
 
-    // Timestamp time_;
-
+    Timestamp time_;
+    LogStream stream_;
+    LogLevel level_;
+    int line_;
+    SourceFile basename_;
 
 };
 
+    Impl impl_;
+
 };
 
+extern Logger::LogLevel g_logLevel;
+
+inline Logger::LogLevel Logger::logLevel() {
+    return g_logLevel;
+}
+
+#define LOG_TRACE if (wuduo::Logger::logLevel() <= wuduo::Logger::TRACE) \
+  wuduo::Logger(__FILE__, __LINE__, wuduo::Logger::TRACE, __func__).stream()
+#define LOG_DEBUG if (wuduo::Logger::logLevel() <= wuduo::Logger::DEBUG) \
+  wuduo::Logger(__FILE__, __LINE__, wuduo::Logger::DEBUG, __func__).stream()
+#define LOG_INFO if (wuduo::Logger::logLevel() <= wuduo::Logger::INFO) \
+  wuduo::Logger(__FILE__, __LINE__).stream()
+#define LOG_WARN wuduo::Logger(__FILE__, __LINE__, wuduo::Logger::WARN).stream()
+#define LOG_ERROR wuduo::Logger(__FILE__, __LINE__, wuduo::Logger::ERROR).stream()
+#define LOG_FATAL wuduo::Logger(__FILE__, __LINE__, wuduo::Logger::FATAL).stream()
+#define LOG_SYSERR wuduo::Logger(__FILE__, __LINE__, false).stream()
+#define LOG_SYSFATAL wuduo::Logger(__FILE__, __LINE__, true).stream()
+
+const char *strerror_tl(int savedErrno);
+
+#define CHECK_NOTNULL(val) \
+  ::wuduo::CheckNotNull(__FILE__, __LINE__, "'" #val "' Must be non NULL", (val))
+
+template <typename T>
+T* CheckNotNull(Logger::SourceFile file, int line, const char *names, T *ptr) {
+    if(ptr == NULL) {
+        Logger(file, line, Logger::FATAL).stream() << names;
+    }
+}
 }
 
 
